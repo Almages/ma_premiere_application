@@ -1,0 +1,7 @@
+<app-default>
+<!--  {{ $users | async | json }}-->
+  <h1>Liste des utilisateurs</h1>
+  @for (user of $users|async; track user.id) {
+    <p>{{ user.name }}</p>
+  }
+</app-default>

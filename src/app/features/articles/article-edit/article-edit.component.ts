@@ -1,9 +1,9 @@
 import {Component, inject} from '@angular/core';
-import {DefaultComponent} from "../../templates/default/default.component";
+import {DefaultComponent} from "../../../templates/default/default.component";
 import {FormControl, FormGroup, ReactiveFormsModule, Validators} from "@angular/forms";
 import {Router, RouterLink} from "@angular/router";
 import {ArticleService} from "../services/article.service";
-import {Post} from "../../core/models/post";
+import {Post} from "../../../core/models/post";
 
 
 @Component({

@@ -1,7 +1,7 @@
 import {Component, inject, OnInit} from '@angular/core';
 import {ActivatedRoute, RouterLink} from "@angular/router";
-import {Post} from "../../core/models/post";
-import {DefaultComponent} from "../../templates/default/default.component";
+import {Post} from "../../../core/models/post";
+import {DefaultComponent} from "../../../templates/default/default.component";
 
 @Component({
   selector: 'app-article',

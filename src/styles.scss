@@ -1,8 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+// --------------------------------------------------------------------------------
+// Global
+// --------------------------------------------------------------------------------
+
+
 @use "tailwindcss";
 
-@layer base {
+:root {
   --font-bold: bold;
+}
+@layer base {
+
+
 
   h1 {
     font-size: var(--text-2xl);

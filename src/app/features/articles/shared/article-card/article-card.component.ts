@@ -1,5 +1,5 @@
-import {Component, Input, input} from '@angular/core';
-import {Post} from "../../../core/models/post";
+import {Component, Input} from '@angular/core';
+import {Post} from "../../../../core/models/post";
 import {RouterLink} from "@angular/router";
 
 

@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
-import {DefaultComponent} from "../../templates/default/default.component";
+import {DefaultComponent} from "../../../templates/default/default.component";
 import {ArticleCardComponent} from "../shared/article-card/article-card.component";
-import {Post} from "../../core/models/post";
+import {Post} from "../../../core/models/post";
 
 @Component({
   selector: 'app-articles',
