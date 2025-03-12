@@ -1,0 +1,18 @@
+<app-default>
+
+  <form [formGroup]="form" (ngSubmit)="onSubmit()" class="mt-4 flex flex-col items-center gap-4">
+
+    <h1>Nouvel article</h1>
+
+    <input formControlName="title" type="text" class="inline-block bg-gray-200 p-2 rounded-lg w-96">
+    <input formControlName="body" type="text" class="bg-gray-200 p-2 rounded-lg w-96">
+
+    <div class="flex gap-4">
+      <button type="submit" class="inline-block rounded-lg border bg-white px-4 py-1 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:text-base">Créer</button>
+      <a routerLink="/articles" class="inline-block rounded-lg border bg-white px-4 py-1 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:text-base">Retour
+        à la liste des articles</a>
+    </div>
+
+  </form>
+
+</app-default>

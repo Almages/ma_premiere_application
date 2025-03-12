@@ -1,0 +1,6 @@
+<div class="m-4 bg-gray-100 shadow-lg p-2 w-[250px] min-w-[250px] min-h-1/6 rounded-xl">
+  {{post.id}}
+  <h2>{{post.title}}</h2>
+  <p>{{post.body}}</p>
+  <a [routerLink]="['/articles', post.id]">Lire l'article</a>
+</div>

@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@use "tailwindcss";
+
+@layer base {
+  --font-bold: bold;
+
+  h1 {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-bold);
+  }
+
+  h2 {
+    font-size: var(--text-xl);
+    font-weight: var(--font-bold);
+  }
+
+  h3 {
+    font-size: var(--text-xl);
+    font-weight: var(--font-bold);
+  }
+}

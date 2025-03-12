@@ -1,0 +1,7 @@
+<app-default>
+  <div class="flex flex-wrap gap-4">
+    @for (post of posts; track post.id) {
+      <app-article-card [post]="post"></app-article-card>
+    }
+  </div>
+</app-default>
