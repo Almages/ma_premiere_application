@@ -8,10 +8,9 @@
 :root {
   --font-bold: bold;
 }
+
+
 @layer base {
-
-
-
   h1 {
     font-size: var(--text-2xl);
     font-weight: var(--font-bold);
